@@ -8,8 +8,8 @@ body {
 	font-weight: 500;
 	font-style: Black;
 	color: rgb(255, 255, 255); 
-	font-size: 18px;
-	letter-spacing: 0px;
+	font-size: 50px;
+	text-align: center;
 
 }
 
@@ -21,16 +21,41 @@ header {
     height: 100vh; /* Define a altura do cabeçalho */
 }
 
+p {
 
 
-body {
-    margin: 0;
-    font-family: 'Helvetica', sans-serif; /* Fonte do site */
-    background-color: #fe99d9;
+    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
+    line-height: 1.6; /* Altura da linha ajustada para 1.6 */
+    margin: 0 0 20px; /* Margem entre os parágrafos */
+    text-align: center; /* Justifica o texto */
+    text-indent: 20px; /* Adiciona um recuo no início do parágrafo */
+    font-weight: 500;
+    font-family: Helvetica;
+    font-style: normal;
+    letter-spacing: -1.2px;
+    color: rgba(249, 246, 246, 1);
+    font-size: 30px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+
+}
+
+
+img {
     
-}
+        color: #007BFF; /* Cor padrão do link */
+        text-decoration: none; /* Remove o sublinhado */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .meu-link:hover {
+        color: #000000; /* Cor ao passar o mouse */
+    }
+    
+    /* Remove o efeito de clique */
+    .meu-link:active,
+    .meu-link:focus {
+        color: #000000; /* Mantém a cor padrão ao clicar */
+        outline: none; /* Remove o contorno quando o link é focado */
+    }
 
-header {
-    background-color: #fe99d9; /* Cor de fundo da barra de navegação */
-    padding: 10px 0; /* Preenchimento superior e inferior */
-}
